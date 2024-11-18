@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishan Vadalia</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- FONT AWESOME -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+  <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("KRpeQYZePwDctLHXm");
+    })();
+  </script>
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <div class="max-width">
+      <div class="logo">
+        <a href="#"><span>My Portfolio</span></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Experience</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="material-icons">menu</i>
+      </div>
+    </div>
+  </nav>
+  <!-- Scroll to top button -->
+  <!-- <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button> -->
+
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">ISHAN VADALIA</div>
+        <div class="text-3">Im a <span class="typing"></span></div>
+      </div>
+    </div>
+    <div class="max-width">
+      <div class="frame">
+        <div class="circular-frame">
+          <img src="images\skill-icons\linkedin_profile.png" alt="Photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">About Me</h2>
+      <div class="about-content">
+        <div class="column left" >
+          <img src="images/skill-icons/about_me.jpg" alt="about me" />
+        </div>
+        <div class="column right" >
+          <div class="text">
+            I'm Ishan Vadalia and Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            As a <strong> Software Developer</strong>, I’m driven by a passion for creating innovative and efficient
+            solutions that truly make a difference. Writing clean code and solving problems is what I do best, but my
+            journey doesn’t stop there. As a <strong>Freelancer</strong>, I enjoy helping clients turn their ideas into
+            reality, and as a <strong>Blogger</strong> and <strong>Writer</strong>, I love sharing my thoughts on
+            technology and creativity. Whether I’m developing software, collaborating on projects, or writing to
+            inspire, I’m always excited to take on new challenges and keep growing in this ever-changing tech world.
+          </p>
+          <a href="https://drive.google.com/file/d/1B9hnENtshwamvxXWytV5muTUkuWnMdU0/view?usp=sharing" target="_blank">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Work Experience</h2>
+      <div class="serv-content">
+        <div class="card" >
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text">Axestrack</div>
+            <p>
+              As a Full Stack Developer, I’ve had the opportunity to work on impactful projects, including integrating
+              WhatsApp services into a product to enhance communication. I’ve also leveraged Redis for caching and Kafka
+              for stream processing to boost system efficiency. At Axestrack, my work revolves around a robust tech
+              stack of Angular, Java, MongoDB, and PostgreSQL, allowing me to deliver scalable and effective solutions.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">HireQuotient</div>
+            <p>
+              As a Freelancer, I designed and developed several tools, integrating the ChatGPT-4 API to enhance
+              functionality. This integration significantly increased website traffic, contributing to higher Google
+              search rankings. My primary focus was on Next.js for frontend development, where I leveraged modern
+              technologies to create user-friendly and impactful solutions that drove both engagement and performance.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" >
+          <div class="box">
+            <i class="fas fa-desktop"></i>
+            <div class="text">Assistant in Operating Systems Lab</div>
+            <p>
+
+              I mentored 50+ second-year Engineering students at LNMIIT, Jaipur in the OS Lab, focusing on
+              process/thread management, scheduling algorithms, and inter-process communication. I contributed to
+              experiments on deadlock handling, memory management, and file systems, while providing constructive
+              feedback and clear communication of complex technical concepts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" >
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills...
+          </div>
+          <p class="paragraph-2">
+
+            At Axestrack, I primarily work with Angular and Java, but I have also created projects using technologies
+            like React.js, Next.js, MongoDB, and Node.js. In addition to my development work, I actively engage in
+            competitive programming using C++, having solved over 600 problems on LeetCode, which continuously sharpens
+            my problem-solving and algorithmic skills.
+          </p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\angular.png" alt="angular" id="flutter-icon" 
+              style="height: 48px;">
+            <img src="images\skill-icons\java.png" alt="java" id="vscode-icon" 
+              style="height: 48px;">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" >
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" >
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\nextjs.png" alt="nextjs" id="css-icon" 
+              style="height: 48px;">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html" , id="html-icon" >
+            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" >
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" >
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\mongo.svg" alt="mongo" id="css-icon" 
+            style="height: 48px;">
+            <img src="images\skill-icons\sql.svg" alt="sql" id="css-icon" 
+            style="height: 48px;">
+            <img src="images\skill-icons\icons8-c++.svg" alt="sql" id="css-icon" 
+            style="height: 48px;">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="sql" id="css-icon" 
+            style="height: 48px;">
+          </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" >
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">Have a project or idea you'd like to discuss? Whether it’s about development, freelancing, or just a quick chat, feel free to reach out—I’d love to hear from you!
+          </p>
+          <div class="icons">
+            <div class="row">
+              <!-- <i class="fas fa-user"></i> -->
+              <i class="fas fa-envelope"></i>
+
+              <div class="info">
+                <!-- <div class="head">Name</div> -->
+                <div class="sub-title">ishanvadalia1607@gmail.com</div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- <i class="fas fa-map-marker-alt"></i> -->
+              <i class="fab fa-linkedin"></i>
+              <div class="info">
+                <!-- <div class="head">Address</div> -->
+                <a href="https://www.linkedin.com/in/ishan-vadalia/" target="_blank" class="sub-title">linkedin.com/in/ishan-vadalia/</a>
+              </div>
+            </div>
+            <div class="row">
+              <!-- <i class="fas fa-envelope"></i> -->
+              <i class="fas fa-phone"></i>
+
+              <div class="info">
+                <!-- <div class="head">Email</div> -->
+                <div class="sub-title">+91 9099701922</div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- <i class="fas fa-envelope"></i> -->
+              <i class="fab fa-github"></i>
+
+              <div class="info">
+                <!-- <div class="head">Email</div> -->
+                <a href="https://github.com/Ishan1922" target="_blank" class="sub-title">github.com/Ishan1922</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <!-- <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">{{YOUR NAME}}</a> | <span class="far fa-copyright"> </span>
+        <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+          <a href="{{YOUR LINKEDIN}}"><i class="fab fa-linkedin"></i></a>
+          <a href="{{YOUR GITHUB}}"><i class="fab fa-github"></i></a>
+          <a href="{{YOUR YOUTUBE}}"><i class="fab fa-youtube"></i></a>
+        </div>
+      </span>
+    </div>
+  </footer> -->
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
