@@ -733,6 +733,11 @@ footer i:hover{
         height: 350px;
         width: 350px;
     }
+    .home .frame {
+        height: 350px;
+        width: 350px;
+        visibility: hidden;
+    }
  }
 @media (max-width: 991px) {
     .max-width{
@@ -780,6 +785,9 @@ footer i:hover{
         font-size: 25px;
     }
 
+    .home .max-width{
+        width: 100%;
+    }
     .home .home-content .text-2 {
         font-size: 70px;
     }
